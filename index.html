@@ -4,34 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learn HTML</title>
+    <style>
+      /* tag selector */
+      h2{
+        color: green;
+      }
+      /* id selector */
+      #uniq_3{
+        color: pink !important; /*dont use !important*/
+      }
+      /* class selector */
+      .color-accent {
+        color: red;
+      }
+      .color-info{
+        color: blue;
+      }
+      /* 2 class selector */
+      .color-accent.color-info{
+        color: yellow;
+      }
+      /* id class selector */
+      h2#uniq_3.color-accent{
+        color: purple;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">home</a></li>
-          <li><a href="./pages/about.html">about</a></li>
-          <li><a href="https://www.w3.org/" target="_blank">w3.org</a></li>
-          <li><a href="https://www.google.com.ua/" target="_blank">google.com.ua</a></li>
-          <li><a href="#article1">article 1</a></li>
-          <li><a href="#article2">article 2</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article id="article1">
-        <h2>title for acticle 1</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Laboriosam, recusandae? Esse, numquam architecto.</p>
-        <p>Labore dignissimos delectus quo esse!</p>
-      </article>
-      <article id="article2">
-        <h2>title for acticle 2</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Natus quia quos sit asperiores.</p>
-        <p>Maxime natus architecto culpa doloremque!</p>
-      </article>
-    </main>
-    <footer>&copy; Valentyn 2023</footer>
+    <!-- inline styles -->
+    <a href="https://google.com" target="_blank"><button>go google</button></a>
+    <h2 style="color: chocolate;">title heading 1</h2>
+    <h2 class="color-accent color-info">title heading 2</h2>
+    <h2 id="uniq_3" class="color-accent">title heading 3</h2>
+    <h2>title heading 4</h2>
+    <h2 class="color-accent">title heading 5</h2>
+    <h2>title heading 6</h2>
   </body>
 </html>
