@@ -4,19 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learn HTML</title>
-    <style>
-    h2{color: blue;}
-    #uniq{color: brown;}
-    .color-accent{color: chocolate;}
-    .color-info {color: cyan;}
-    </style>
   </head>
   <body>
-    <h2 style="color: darkgreen;">title heading</h2>
-    <h2 class="color-info color-accent">title-heading 2</h2>
-    <h2 id="uniq" class="color-accent">title heading 3</h2>
-    <h2>title heading 4</h2>
-    <h2 class="color-accent">title heading 5</h2>
-    <h2>title heading 6</h2>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="./pages/about.html">about</a></li>
+          <li><a href="https://www.w3.org/" target="_blank">w3.org</a></li>
+          <li><a href="https://www.google.com.ua/" target="_blank">google.com.ua</a></li>
+          <li><a href="#article1">link 3</a></li>
+          <li><a href="#article2">link 4</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article id="article1">
+        <h2>title for acticle 1</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Laboriosam, recusandae? Esse, numquam architecto.</p>
+        <p>Labore dignissimos delectus quo esse!</p>
+      </article>
+      <article id="article2">
+        <h2>title for acticle 2</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Natus quia quos sit asperiores.</p>
+        <p>Maxime natus architecto culpa doloremque!</p>
+      </article>
+    </main>
+    <footer>&copy; Valentyn 2023</footer>
   </body>
 </html>
