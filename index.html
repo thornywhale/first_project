@@ -4,40 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learn HTML</title>
-    <style>
-      /* tag selector */
-      h2{
-        color: green;
-      }
-      /* id selector */
-      #uniq_3{
-        color: pink !important; /*dont use !important*/
-      }
-      /* class selector */
-      .color-accent {
-        color: red;
-      }
-      .color-info{
-        color: blue;
-      }
-      /* 2 class selector */
-      .color-accent.color-info{
-        color: yellow;
-      }
-      /* id class selector */
-      h2#uniq_3.color-accent{
-        color: purple;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <!-- inline styles -->
-    <a href="https://google.com" target="_blank"><button>go google</button></a>
-    <h2 style="color: chocolate;">title heading 1</h2>
-    <h2 class="color-accent color-info">title heading 2</h2>
-    <h2 id="uniq_3" class="color-accent">title heading 3</h2>
-    <h2>title heading 4</h2>
-    <h2 class="color-accent">title heading 5</h2>
-    <h2>title heading 6</h2>
+    <div><img src="./assets/img/4DFM_sample2.jpg" alt="img_head"></div>
+    <header>
+      <h1 class="logo"><a href="#">logo</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#">about</a></li>
+          <li><a href="./pages/about.html">back home</a></li>
+          <li><a href="https://www.w3.org/" target="_blank">w3.org</a></li>
+          <li>
+            <a href="https://www.google.com.ua/" target="_blank"
+              >google.com.ua</a
+            >
+          </li>
+          <li><a href="./../index.html#article1">article 1</a></li>
+          <li><a href="./../index.html#article2">article 2</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Title</h1>
+        <article>
+          <h2>subtitle 1</h2>
+          <p></p>
+          <p></p>
+        </article>
+        <article>
+          <h2>subtitle 2</h2>
+          <p></p>
+          <p></p>
+        </article>
+      </section>
+    </main>
+    <footer>&copy; Valentyn 2023</footer>
   </body>
 </html>
