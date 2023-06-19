@@ -1,33 +1,9 @@
 body{
-  background-color: aqua;
-  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
 }
-div{
-  text-align: center;
+.photo{
+  width: 150px;
 }
-img{
-  width: 100px;
-  border-radius: 30%;
-}
-h1, h2{
-  font-size: 1.5em;
-  text-align: center;
-}
-.logo{
-  font-size: 3em;
-  font-family: 'Caveat', cursive;
-  font-weight: 500;
-  border-top: 3px red solid;
-  border-bottom: 3px black solid;
-}
-a{
-  text-decoration: dotted red 2px underline;
-  text-decoration: none;
-  background-color: azure;
-}
-p{
-  font-size: 40px;
-  line-height: 1.3em;
-  text-indent: 2em;
-  text-align: justify;
+.subheading{
+  
 }
